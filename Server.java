@@ -133,7 +133,7 @@ public class Server {
 
 							}
 						}
-						System.out.println("RCVD: "+p.toString());
+						System.out.println("Data Recieved "+p.toString());
 					}else if(state == State.FIN_SEND){
 						
 						
